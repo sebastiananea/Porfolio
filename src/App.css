@@ -37,3 +37,7 @@ html {
 .particles {
   background: #000;
 }
+
+.mobile {
+  display: none;
+}
