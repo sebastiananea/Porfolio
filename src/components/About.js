@@ -15,7 +15,7 @@ export default function About({ vp }) {
   new wow.WOW().init();
   return (
     <Row
-      className={`w-100 wow  animate__animated animate__fadeIn justify-space-around${
+      className={`w-100 wow  animate__animated animate__fadeIn justify-content-around mt-5 ${
         vp > 720 ? "d-flex" : ""
       }`}
     >
@@ -24,12 +24,11 @@ export default function About({ vp }) {
         <p className="p-2">
           Con formación en desarrollo full stack, y un fuerte interes en el
           arte, la ciencia, y el avance tecnológico como herramienta para hacer
-          del mundo un lugar mejor. Estudié la Licenciatura en Higiene y
-          Seguridad durante 2 años, hasta que decidí cambiar a la Licenciatura
-          en Ciencias de la Computación. Me gusta tocar la guitarra, jugar
-          videojuegos y practicar voley y futbol.
+          del mundo un lugar mejor.<br></br> Estudiante de Ciencias de la
+          Computación en la Universidad de Buenos Aires.<br></br> Me gusta tocar
+          la guitarra, jugar videojuegos y practicar voley y futbol.
         </p>
-        <div className="text-center ">
+        <div className="text-center d-flex justify-content-center gap-2 ">
           <Button className="bg-dark ">
             Ver perfil
             <FaLinkedin style={{ margin: 10, height: 35, width: 35 }} />
